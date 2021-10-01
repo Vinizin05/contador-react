@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #857474;
+  height: 100vh;
+  text-align: center;
+  align-items: center;
+}
+
+.container{
+  background-color: red;
+  width: 270px;  
+  align-items: center;
+  text-align: center;
+}
+
+button {
+  margin: 5px;
+  transition: 0.4s;
+  background-color: #4dce33;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}
+button:hover{
+  background-color: green;
+  color: white;
+}
