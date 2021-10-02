@@ -1,24 +1,30 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow: hidden;
 }
 
-body{
-  background-color: #857474;
+body {
+  background-color: #1E1D1F;
   height: 100vh;
-  text-align: center;
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
+h2 {
+  font-weight: 300;
+}
+
 .container{
-  background-color: black;
-  width: 270px;  
+  background-color: #161616;
   border-radius: 10px;
-  margin: auto;
   color: white;
-  margin-top: 250px;
+  font-size: larger;
+  box-shadow: 0 0 2em rgba(0,0,0,.5);
+  align-items: center;
+  text-align: center;
+  padding: 2em;
 }
 
 button {
@@ -36,4 +42,22 @@ button {
 button:hover{
   background-color: #4dce33;
   color: white;
+}
+
+.btnMenos {
+  background-color: red;
+}
+.btnMenos:hover{
+  background-color: rgba(255, 0, 0, 0.623);
+}
+
+.btnMais{
+  background-color: blue;
+}
+.btnMais:hover{
+  background-color: rgba(0, 0, 255, 0.616);
+}
+
+#number {
+  font-size: 3em;
 }

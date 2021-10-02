@@ -13,14 +13,19 @@ function App() {
     setNumber(number + 1)
   }
 
+  function zerar() {
+    setNumber(0)
+  }
+
   return (
     <>
     <div className="container">
       <div className="inner-container">
         <h2>Contador</h2>
-        <div>{number}</div>
-      <button onClick={menos}>menos</button> 
-      <button onClick={mais}>mais</button>
+        <div id="number">{number}</div>
+      <button className="btnMenos" onClick={menos}>menos</button>
+      <button className="btnZerar" onClick={zerar}>zerar</button> 
+      <button className="btnMais" onClick={mais}>mais</button>
       </div>  
     </div>
     </>
